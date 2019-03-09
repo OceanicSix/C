@@ -13,6 +13,8 @@ using namespace std;
 
 #include "iter/iter.h"
 
+#include "ary/ary.h"
+
 //Constructor
 
 //int main() {
@@ -42,5 +44,5 @@ using namespace std;
 //}
 
 int main(){
-    iter_str();
+    multi_ary();
 }

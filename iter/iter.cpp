@@ -9,6 +9,7 @@ using namespace std;
 void iter_str(){
     string a="hello";
     for(auto i=a.begin();i!=a.end();i++){
+        *i='m';
         cout<<*i<<endl;
     }
 }

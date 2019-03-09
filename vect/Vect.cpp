@@ -7,9 +7,10 @@
 using namespace std;
 
 void Vect(){
-    vector<int> a;
+    vector<int> a={1,2,3};
     if (a.empty())
         cout<<"a is empty"<<endl;
     else
-        cout<<a.size();
+        for(auto i:a)
+            cout<<i<<endl;
 }
