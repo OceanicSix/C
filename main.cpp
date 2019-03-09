@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 #include "book.h"
+
+#include"str.h"
 #include "cctype"
 
 //Constructor
@@ -33,12 +35,5 @@ using namespace std;
 //}
 
 int main(){
-    string a="Hello!!!";
-    int count=0;
-    for (auto i:a){
-        if(ispunct(i))
-            count+=1;
-
-    }
-    cout<<count<<endl;
+    str();
 }
