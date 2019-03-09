@@ -1,10 +1,17 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include "book.h"
 
-#include"str.h"
+#include "class_example/book.h"
+
+#include"str/str.h"
 #include "cctype"
+
+#include "vect/Vect.h"
+
+#include "input/input.h"
+
+#include "iter/iter.h"
 
 //Constructor
 
@@ -35,5 +42,5 @@ using namespace std;
 //}
 
 int main(){
-    str();
+    iter_str();
 }
