@@ -15,6 +15,7 @@ using namespace std;
 
 #include "ary/ary.h"
 
+#include "operator/operator.h"
 //Constructor
 
 //int main() {
@@ -44,5 +45,5 @@ using namespace std;
 //}
 
 int main(){
-    multi_ary();
+    oper();
 }

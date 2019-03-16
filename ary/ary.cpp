@@ -14,14 +14,11 @@ void ary() {
 }
 
 void multi_ary() {
-    int a[3][3];
-    int b[3]={1,2,3};
+    int a[3][3]={1,2,3,4,5,6,7,8,9};
+    int b[3]={10,11,12};
 
 
-    for (int i = 0; i != 3; i++) {
-        for (int j = 0; j != 3; j++)
-            a[i][j] = 1;
-    }
+//
 
 //    for(auto i=a;i!=end(a);i++){
 //        for(auto k=*i;k!=end(*i);k++){
@@ -31,11 +28,10 @@ void multi_ary() {
 
 
     for(auto row:a){
-        for(auto col:*row)
-            cout<<col<<endl;
+        cout<<*row<<endl;
     }
 
-//    for (auto i:b){
-//        cout<<i<<endl;
-//    }
+    for (auto i:b){
+        cout<<i<<endl;
+    }
 }
