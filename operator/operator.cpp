@@ -14,3 +14,12 @@ void oper(){
     result=(grade<60)?"fail":"pass";
     cout<<result;
 }
+
+void bit_wise(){
+    unsigned char bits=233;
+    cout<<(bits<<8);
+}
+
+void size_of(){
+    cout<<sizeof (char);
+}

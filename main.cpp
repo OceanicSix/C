@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 #include "class_example/book.h"
@@ -44,6 +45,10 @@ using namespace std;
 //dd
 //}
 
-int main(){
-    oper();
+int main() {
+    char b='a';
+    const char* cp = &b;
+    cout << cp << endl << *cp << endl;
+    char *a = const_cast<char*>(cp);
+    cout<<*a;
 }
