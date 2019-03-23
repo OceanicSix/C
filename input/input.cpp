@@ -23,3 +23,9 @@ void int_cin() {
     }
     cout<<sum<<endl;
 }
+
+void multi_input(){
+    int a,b;
+    cin>>a>>b;
+    cout<<a<<endl<<b;
+}

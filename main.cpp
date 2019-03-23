@@ -17,6 +17,8 @@ using namespace std;
 #include "ary/ary.h"
 
 #include "operator/operator.h"
+
+#include "control_structure/control.h"
 //Constructor
 
 //int main() {
@@ -46,9 +48,5 @@ using namespace std;
 //}
 
 int main() {
-    char b='a';
-    const char* cp = &b;
-    cout << cp << endl << *cp << endl;
-    char *a = const_cast<char*>(cp);
-    cout<<*a;
+    multi_input();
 }

@@ -6,4 +6,6 @@
 #define UNTITLED_INPUT_H
 void str_cin();
 void int_cin();
+void multi_input();
+
 #endif //UNTITLED_INPUT_H

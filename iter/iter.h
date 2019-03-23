@@ -5,4 +5,5 @@
 #ifndef UNTITLED_ITER_H
 #define UNTITLED_ITER_H
 void iter_str();
+void for_loop();
 #endif //UNTITLED_ITER_H
