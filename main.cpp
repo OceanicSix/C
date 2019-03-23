@@ -19,6 +19,7 @@ using namespace std;
 #include "operator/operator.h"
 
 #include "control_structure/control.h"
+#include "exception/exception.h"
 //Constructor
 
 //int main() {
@@ -48,5 +49,5 @@ using namespace std;
 //}
 
 int main() {
-    multi_input();
+    try_catch();
 }
