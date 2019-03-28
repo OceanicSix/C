@@ -51,8 +51,8 @@ using namespace std;
 //}
 
 int main() {
-    const int b=5;
-    const_overloading(b);
+
+    cout<<*return_pointer()<<endl;
 
 }
 
