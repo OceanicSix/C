@@ -7,12 +7,15 @@
 
 struct book{
 private:
-    int book_no;
+    int book_no=0;
     double book_price;
+
 public:
     //book(int no,double price);
     book();
     int get_no();
-    double get_price();
+    virtual double get_price();
+    static int m;
+    int base=10;
 };
 #endif //UNTITLED_BOOK_H

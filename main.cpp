@@ -22,6 +22,7 @@ using namespace std;
 #include "exception/exception.h"
 
 #include "function/function.h"
+#include "class_example/book_derived.h"
 //Constructor
 
 //int main() {
@@ -51,10 +52,13 @@ using namespace std;
 //}
 
 int main() {
-    const int b=5;
-    const_overloading(b);
 
+book_derived book1(5);
+book book2;
+cout<<book1.get_price()<< book2.get_price()<<endl;
 }
+
+
 
 
 //--------------------------------------first index----------------------------

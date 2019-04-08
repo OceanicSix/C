@@ -4,6 +4,8 @@
 #include "book.h"
 using namespace std;
 
+int book::m=0;
+
 book::book(){
     book_no=0;
     book_price=0.0;
