@@ -7,4 +7,5 @@
 
 void ary();
 void multi_ary();
+string print_arr(string a,string b,string c);
 #endif //UNTITLED_ARY_H

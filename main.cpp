@@ -53,9 +53,7 @@ using namespace std;
 
 int main() {
 
-book_derived book1(5);
-book book2;
-cout<<book1.get_price()<< book2.get_price()<<endl;
+cout<<print_arr("ab","cd","ef");
 }
 
 

@@ -6,6 +6,23 @@
 
 using namespace std;
 
+//string print_arr(string (&arr)[3]){
+//  string result;
+//  for (auto i:arr){
+//    result+=i;
+//  }
+//  return result;
+//}
+
+string print_arr(string a,string b,string c){
+  string result;
+  string arr[3]={a,b,c};
+  for (const string &i:arr){
+    result+=i;
+  }
+  return result;
+}
+
 void ary() {
 
     int arr[3] = {1, 2, 3};
