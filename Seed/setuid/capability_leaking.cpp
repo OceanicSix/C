@@ -1,6 +1,9 @@
 //
 // Created by Ocean on 17/04/2019.
 //
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
 
 void main(){
 	int fd;
