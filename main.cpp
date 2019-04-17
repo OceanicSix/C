@@ -52,11 +52,9 @@ using namespace std;
 //}
 
 int main() {
-    string *v[2];
-    string a="bin/bash";
+    string a="123";
     string *p=&a;
-    v[0]=p;
-    v[1]=nullptr;
+    string **q=&p;
 }
 
 
