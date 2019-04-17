@@ -52,8 +52,11 @@ using namespace std;
 //}
 
 int main() {
-
-cout<<print_arr("ab","cd","ef");
+    string *v[2];
+    string a="bin/bash";
+    string *p=&a;
+    v[0]=p;
+    v[1]=nullptr;
 }
 
 
